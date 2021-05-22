@@ -1,0 +1,6 @@
+[submodule "dev-doctor-blog/dev-doctor-blog/themes/hugo-theme-codex"]
+	path = dev-doctor-blog/dev-doctor-blog/themes/hugo-theme-codex
+	url = https://github.com/jakewies/hugo-theme-codex.git
+[submodule "dev-doctor-vicki/themes/hello-friend"]
+	path = dev-doctor-vicki/themes/hello-friend
+	url = https://github.com/panr/hugo-theme-hello-friend.git
