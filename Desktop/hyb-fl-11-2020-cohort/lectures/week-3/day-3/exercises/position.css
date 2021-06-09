@@ -1,0 +1,37 @@
+.parent {
+    background-color: aliceblue;
+    height: 1400px;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.child-one, .child-two, .child-three, .child-four {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.child-one {
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0;
+}
+
+.child-two {
+    background-color:greenyellow;
+    position: absolute;
+    right: 0;
+}
+
+.child-three{
+    background-color: tomato;
+    position: relative;
+    left: 20px;
+}
+
+.child-four{
+    background-color: teal;
+    position: sticky;
+    top: 0;
+}
