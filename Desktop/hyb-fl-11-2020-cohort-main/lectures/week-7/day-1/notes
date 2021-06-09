@@ -1,0 +1,24 @@
+## Notes from class
+- The console issues crdeating errors appears to be from a "strict use" error.
+
+## Browser console
+- When you use a developer console to run code, please note that it doesn’t use strict by default.
+- Sometimes, when use strict makes a difference, you’ll get incorrect results.
+
+So, how to actually use strict in the console?
+- First, you can try to press Shift+Enter to input multiple lines, and put use strict on top, like this:
+
+'use strict'; <Shift+Enter for a newline>
+//  ...your code
+<Enter to run>
+
+It works in most browsers, namely Firefox and Chrome.
+
+## If it doesn’t, e.g. in an old browser, there’s an ugly, but reliable way to ensure use strict. Put it inside this kind of wrapper:
+
+(function() {
+  'use strict';
+
+  // ...your code here...
+})()
+
